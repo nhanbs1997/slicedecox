@@ -18,6 +18,10 @@
   font-weight: normal;
   font-style: normal;
 }
+body {
+  overflow-x: hidden;
+}
+
 #main {
   height: 4452px;
   /* 6332px = 0.7030953885 */
@@ -505,14 +509,89 @@
   padding: 6px 0;
 }
 #main footer#thongtin #footer-end {
-  height: 51.4423076923%;
   background: #e6e6e6;
-  padding: 0;
-  padding-left: 19.5833333333%;
-  padding-top: 17.5px;
+  height: 54.0865384615%;
+  margin: 0 -15px;
 }
-#main footer#thongtin #footer-end img {
+#main footer#thongtin #footer-end .row#footer-logo {
+  padding: 0;
+  padding-top: 17.5px;
+  padding-left: 19.5833333333%;
+}
+#main footer#thongtin #footer-end .row#footer-logo .col-lg-12 {
+  padding: 0;
+}
+#main footer#thongtin #footer-end .row#footer-logo .col-lg-12 img {
   width: 12%;
+}
+#main footer#thongtin #footer-end .row#footer-content {
+  padding: 0 19.5833333333%;
+}
+#main footer#thongtin #footer-end .row#footer-content .col-lg-4 {
+  padding: 0;
+}
+#main footer#thongtin #footer-end .row#footer-content .col-lg-4 h5 {
+  color: #163645;
+  font-weight: bold;
+  font-family: 'Helve';
+  font-size: 15px;
+  margin-top: 24.5px;
+  margin-bottom: 14.7px;
+}
+#main footer#thongtin #footer-end .row#footer-content .col-lg-4 .p-cot1 {
+  color: #163645;
+  font-family: 'Helve';
+  font-size: 13px;
+  width: 179.2px;
+  height: 275.8px;
+  line-height: 1.35;
+}
+#main footer#thongtin #footer-end .row#footer-content .col-lg-4 .p-cot2 {
+  color: #f8931e;
+  font-family: 'Helve';
+  font-size: 13px;
+  margin-bottom: 2px;
+}
+#main footer#thongtin #footer-end .row#footer-content .col-lg-4 img.img-cot3 {
+  display: inline-block;
+  width: 23%;
+}
+#main footer#thongtin #footer-end .row#footer-content .col-lg-4 img#icon-youtube {
+  width: 23%;
+  margin-top: 19.6px;
+}
+#main footer#thongtin #footer-end .row#footer-content .col-lg-4 img:last-child {
+  width: 58%;
+  margin-top: 25.9px;
+  display: block;
+}
+#main footer#thongtin #footer-end .row#footer-content .col-lg-4 .p-cot3 {
+  display: inline;
+}
+#main footer#thongtin #footer-end .row#footer-content .col-lg-4 p#text-youtube {
+  position: absolute;
+  top: 161px;
+  left: 71px;
+}
+#main footer#thongtin #footer-end .row#footer-content .col-lg-8 {
+  padding: 0;
+  margin-top: 25.9px;
+  padding-right: 56px;
+  margin-bottom: 50px;
+}
+#main footer#thongtin #footer-end .row#footer-content .col-lg-8 p {
+  margin-bottom: 3px;
+  font-family: 'Helve';
+  color: #163645;
+  font-weight: normal;
+  font-size: 15px;
+}
+#main footer#thongtin #footer-end .row#footer-content .col-lg-8 p span {
+  font-weight: bold;
+  color: #f8931e;
+}
+#main footer#thongtin #footer-end .row#footer-content .col-lg-4 {
+  margin-top: 13.3px;
 }
 
 /*# sourceMappingURL=style.css.map */
